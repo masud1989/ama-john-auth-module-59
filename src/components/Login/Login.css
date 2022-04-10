@@ -1,17 +1,19 @@
 .form-container{
     width: 600px;
-    margin: 0 auto;
+    margin: 50px auto;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
     display:flex;
     justify-content: center;
+    box-shadow: 10px 10px 5px rgb(238, 190, 88);
 }
 
 .form-title{
     font-size: 35px;
     color: #2A414F;
     font-weight: 400;
+    text-align: center;
 }
 
 .input-group{
@@ -42,6 +44,7 @@
     font-size: 24px;
     border: none;
     color: antiquewhite;
+    cursor: pointer;
 }
 .submit-btn:hover{
     background-color: #ecbd76;
@@ -51,4 +54,26 @@
     color: #fa9702;
     text-decoration: none;
     margin-left: 5px;
+}
+
+.line{
+    display: block;
+    text-align: center;  
+}
+.google-btn{
+    height: 55px;
+    width: 415px;
+    left: 526px;
+    top: 549px;
+    border-radius: 5px;
+    background-color: #cfe0f0;
+    font-size: 20px;
+    border: none;
+    color: rgb(18, 99, 146);
+    margin: 20px auto;
+    cursor: pointer;
+}
+.google-btn:hover{
+    color: aquamarine;
+    background-color: rgb(18, 99, 146);
 }
