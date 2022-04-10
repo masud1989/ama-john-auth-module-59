@@ -3,7 +3,12 @@
     2. npm install firebase
     3. create firebase.init.js and export default auth
     4. firebase firebase setting > authentication > enable email and password auth
+    5.  
+
 */
+
+
+
 
 
 
